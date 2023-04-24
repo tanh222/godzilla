@@ -47,7 +47,7 @@
 
 
         <button type="submit" class="button" name='signup'>Signup</button>
-        <span>If you already have an account <a href="login.blade.php"> Log in </a></span>
+        <span>If you already have an account <a href="{{ route('auth.login') }}"> Login </a></span>
 
     </form>
 </div>
