@@ -31,10 +31,10 @@ Route::get('login', [AuthController::class, 'index'])->name('login');
 
 Route::post('custom-login', [AuthController::class, 'customLogin'])->name('login.custom');
 
-Route::get('signup', [AuthController::class, 'registration'])->name('signup');
+Route::get('register', [AuthController::class, 'register'])->name('register');
 
-Route::post('custom-signup', [AuthController::class, 'customSignup'])->name('signup.custom');
+Route::post('custom-register', [AuthController::class, 'customRegister'])->name('register.custom');
 
-Route::get('signout', [AuthController::class, 'signOut'])->name('signout');
+Route::get('sign-out', [AuthController::class, 'signOut'])->name('sign-out');
 
 }
