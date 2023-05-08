@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>@yield('title')</title>
-    <!-- Thêm các tệp CSS và JS tại đây -->
+    <title>Custom Auth in Laravel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<!-- Thêm header vào đây -->
-<header>
-    <h1>Product Management</h1>
-</header>
-
-<!-- Thêm sidebar vào đây -->
-<aside>
-    <h2>Sidebar</h2>
-</aside>
-
-<!-- Thêm nội dung chính của trang vào đây -->
-<main>
-    @yield('content')
-</main>
-
-<!-- Thêm footer vào đây -->
-<footer>
-    <h3>Footer</h3>
-</footer>
-
-<!-- Thêm các tệp JavaScript vào đây -->
-
+<nav class="navbar navbar-light navbar-expand-lg mt-4 " style="background-color: #e3f2fd;">
+    <div class="container w-100 p-0">
+        <a class="navbar-brand ms-3" href="#"> Tú Anh </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                @guest
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('login') }}">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('signup') }}">Signup</a>
+                    </li>
+                @else
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('signout') }}">Logout</a>
+                    </li>
+                @endguest
+            </ul>
+        </div>
+    </div>
+</nav>
+@yield('content')
 </body>
 </html>
