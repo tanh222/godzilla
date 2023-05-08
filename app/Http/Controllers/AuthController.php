@@ -1,11 +1,13 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Session;
+
 class AuthController extends Controller
 {
     public function index()
@@ -17,7 +19,7 @@ class AuthController extends Controller
     public function customLogin(Request $request)
     {
         $request->validate([
-            'email' => 'required',
+            'email' => 'required|email',
             'password' => 'required',
         ]);
 
@@ -32,18 +34,18 @@ class AuthController extends Controller
     }
 
 
-    public function registration()
+    public function register()
     {
-        return view('auth.signup');
+        return view('auth.register');
     }
 
 
-    public function customSignup (Request $request)
+    public function customRegister(Request $request)
     {
         $request->validate([
             'name' => 'required',
             'email' => 'required|email|unique:users',
-            'password' => 'required|min:6',
+            'password' => 'required|min:6|confirmed',
         ]);
 
         $data = $request->all();
@@ -67,7 +69,7 @@ class AuthController extends Controller
 
     public function dashboard()
     {
-        if(Auth::check()){
+        if (Auth::check()) {
             return view('dashboard');
         }
 
@@ -75,7 +77,8 @@ class AuthController extends Controller
     }
 
 
-    public function signOut() {
+    public function signOut()
+    {
         Session::flush();
         Auth::logout();
 
