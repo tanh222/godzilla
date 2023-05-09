@@ -14,20 +14,17 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-{
+
 Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/login', [AuthController::class, 'login'])->name('auth.login');
 
-Route::get('/signup',[AuthController::class, 'signup'])->name('auth.signup');
+Route::get('/signup', [AuthController::class, 'signup'])->name('auth.signup');
 
-//Route::get('/dashboard', function () {
-//    return view('dashboard');
-//});
-Route::get('/dashboard',[DashboardController::class,'dashboard'])->name('dashboard)');
+Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard)');
 
-Route::get('login', [AuthController::class, 'index'])->name('login');
+Route::get('login', [AuthController::class, 'login'])->name('login');
 
 Route::post('custom-login', [AuthController::class, 'customLogin'])->name('login.custom');
 
@@ -36,5 +33,3 @@ Route::get('register', [AuthController::class, 'register'])->name('register');
 Route::post('custom-register', [AuthController::class, 'customRegister'])->name('register.custom');
 
 Route::get('sign-out', [AuthController::class, 'signOut'])->name('sign-out');
-
-}

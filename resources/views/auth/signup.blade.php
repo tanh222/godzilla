@@ -61,7 +61,7 @@
         </div>
         <div>
             <label for="phone_number"> Cellphone </label><br>
-            <input type="number" id="phone_number" class="form-control" placeholder="Enter cellphone"
+            <input type="number" id="phone_number" class="form-control" placeholder="Enter cellphone">
         </div>
         <button type="submit" class="button">Sign up</button>
         <span>If you already have an account <a href="http://localhost/Godzilla-TTAnh/public/login"> Log in </a></span>

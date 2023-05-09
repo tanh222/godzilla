@@ -33,10 +33,8 @@
     <div class="container" data-layout="container">
         <div class="row flex-center min-vh-100 py-6">
             <div class="col-sm-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4">
-                <a class="d-flex flex-center mb-4" href="../../index.html">
-                    <img class="mr-2" src="{{ asset('img/logo/falcon.png') }}"
-                         alt=""
-                         width="58"/>
+                <a class="d-flex flex-center mb-4" href="#">
+                    <img class="mr-2" src="{{ asset('img/logo/falcon.png') }}" alt="" width="58"/>
                     <span class="text-sans-serif font-weight-extra-bold fs-5 d-inline-block">falcon</span>
                 </a>
 
