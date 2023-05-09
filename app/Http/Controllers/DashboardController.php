@@ -2,12 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\User;
 
 class DashboardController extends Controller
 {
     public function dashboard() {
-        return view('dashboard');
+        $users = User::paginate(10);
+        return view('dashboard', compact('users'));
     }
 
 }

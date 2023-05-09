@@ -10,12 +10,10 @@ use Illuminate\Support\Facades\Session;
 
 class AuthController extends Controller
 {
-    public function index()
+    public function login()
     {
         return view('auth.login');
     }
-
-
     public function customLogin(Request $request)
     {
         $request->validate([
@@ -33,12 +31,10 @@ class AuthController extends Controller
         return redirect("login")->withSuccess('Login details are not valid');
     }
 
-
     public function register()
     {
         return view('auth.register');
     }
-
 
     public function customRegister(Request $request)
     {
@@ -49,13 +45,10 @@ class AuthController extends Controller
         ]);
 
         $data = $request->all();
-//        dd($data);
         $check = $this->create($data);
-//        dd($check);
 
-        return redirect("dashboard")->withSuccess('You have signed-in');
+        return redirect('dashboard')->withSuccess('You have signed-in');
     }
-
 
     public function create(array $data)
     {
@@ -65,17 +58,6 @@ class AuthController extends Controller
             'password' => Hash::make($data['password'])
         ]);
     }
-
-
-    public function dashboard()
-    {
-        if (Auth::check()) {
-            return view('dashboard');
-        }
-
-        return redirect("login")->withSuccess('You are not allowed to access');
-    }
-
 
     public function signOut()
     {
