@@ -18,13 +18,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/login', [AuthController::class, 'login'])->name('auth.login');
 
 Route::get('/signup', [AuthController::class, 'signup'])->name('auth.signup');
 
 Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard)');
 
-Route::get('login', [AuthController::class, 'login'])->name('login');
+Route::get('/login', [AuthController::class, 'login'])->name('auth.login');
 
 Route::post('custom-login', [AuthController::class, 'customLogin'])->name('login.custom');
 

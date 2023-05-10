@@ -10,7 +10,7 @@
                 </div>
                 <div class="col-auto">
                     <p class="fs--1 text-600 mb-0"> Have an account?
-                        <a href="#>Login</a>
+                        <a href="{{ route('auth.login') }}">Login</a>
                     </p>
                 </div>
             </div>

@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('password');
             $table-> string('phone');
             $table-> string('address');
-            $table->string('date-created');
+            $table->datetimes('date_created');
             $table->rememberToken();
             $table->timestamps();
         });
