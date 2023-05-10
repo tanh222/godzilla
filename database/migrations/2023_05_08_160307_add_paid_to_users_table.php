@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::table('users', function (Blueprint $table) {
             $table->string('phone');
             $table->string('address');
-            $table->timestamp('date_created')->nullable();
+            $table->datetimes('date_created')->nullable();
         });
     }
 
