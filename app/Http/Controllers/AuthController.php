@@ -14,6 +14,7 @@ class AuthController extends Controller
     {
         return view('auth.login');
     }
+
     public function customLogin(Request $request)
     {
         $request->validate([
@@ -29,6 +30,19 @@ class AuthController extends Controller
         }
 
         return redirect("login")->withSuccess('Login details are not valid');
+    }
+
+    public function create(array $data)
+    {
+
+        return User::create([
+            'name' => $data['name'],
+            'email' => $data['email'],
+            'password' => Hash::make($data['password']),
+            'phone' => $data['phone'] ?? null,
+            'address' => $data['address'] ?? null,
+            'date_created' => $data['date_created'] ?? null,
+        ]);
     }
 
     public function register()
@@ -50,13 +64,26 @@ class AuthController extends Controller
         return redirect('dashboard')->withSuccess('You have signed-in');
     }
 
-    public function create(array $data)
+    public function create_user()
     {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => Hash::make($data['password'])
+        return view('create_user');
+    }
+
+    public function customCreate(Request $request)
+    {
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email|unique:users',
+            'password' => 'required|min:6|confirmed',
+            'phone' => 'required',
+            'address' => 'required',
+            'date_created' => 'required',
         ]);
+
+        $data = $request->all();
+        $check = $this->create($data);
+
+        return redirect('dashboard')->withSuccess('You have create_user');
     }
 
     public function signOut()

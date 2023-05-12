@@ -27,8 +27,12 @@ Route::get('/login', [AuthController::class, 'login'])->name('auth.login');
 
 Route::post('custom-login', [AuthController::class, 'customLogin'])->name('login.custom');
 
-Route::get('register', [AuthController::class, 'register'])->name('register');
+Route::get('/register', [AuthController::class, 'register'])->name('auth.register');
 
 Route::post('custom-register', [AuthController::class, 'customRegister'])->name('register.custom');
+
+Route::get('/creat_user', [AuthController::class, 'create_user'])->name('create_user');
+
+Route::post('custom-creat', [AuthController::class, 'customCreate'])->name('create.custom');
 
 Route::get('sign-out', [AuthController::class, 'signOut'])->name('sign-out');

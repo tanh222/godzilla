@@ -9,7 +9,7 @@
                 </div>
                 <div class="col-auto">
                     <p class="fs--1 text-600 mb-0">or
-                        <a href="{{ route('register') }}">Create an account</a>
+                        <a href="{{ route('auth.register') }}">Create an account</a>
                     </p>
                 </div>
             </div>

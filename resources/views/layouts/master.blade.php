@@ -26,7 +26,8 @@
                         <a class="nav-link" href="{{ route('sign-out') }}">Logout</a>
                     </li>
                 @endguest
-            </ul>G
+            </ul>
+            G
         </div>
     </div>
 </nav>
