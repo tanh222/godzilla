@@ -1,7 +1,7 @@
 <?php
-
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,3 +36,7 @@ Route::get('/creat_user', [AuthController::class, 'create_user'])->name('create_
 Route::post('custom-creat', [AuthController::class, 'customCreate'])->name('create.custom');
 
 Route::get('sign-out', [AuthController::class, 'signOut'])->name('sign-out');
+
+Route::get('update-user/{id}',[UserController::class, 'showFormUpdate'])->name('show.form-update');
+Route::put('update-user/{id}', [UserController::class, 'update'])->name('update.user');
+Route::get('delete-user/{id}', [UserController::class, 'delete'])->name('delete.user');

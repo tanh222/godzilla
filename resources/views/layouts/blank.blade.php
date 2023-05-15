@@ -41,6 +41,23 @@
                 @yield('content')
             </div>
         </div>
+        <div>
+            <td class="py-2 align-middle white-space-nowrap">
+                <div class="dropdown text-sans-serif">
+                    <button class="btn btn-link text-600 btn-sm dropdown-toggle btn-reveal mr-3"
+                            type="button" id="customer-dropdown-4" data-toggle="dropdown"
+                            data-boundary="viewport" aria-haspopup="true" aria-expanded="false">
+                        <span class="fas fa-ellipsis-h fs--1"></span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right border py-0"
+                         aria-labelledby="customer-dropdown-4">
+                        <div class="bg-white py-2">
+                            <a class="dropdown-item" href="#!">Edit</a>
+                            <a class="dropdown-item text-danger" href="#!">Delete</a></div>
+                    </div>
+                </div>
+            </td>
+        </div>
     </div>
 </main>
 <!-- ===============================================-->
