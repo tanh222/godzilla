@@ -37,7 +37,6 @@
                     <img class="mr-2" src="{{ asset('img/logo/falcon.png') }}" alt="" width="58"/>
                     <span class="text-sans-serif font-weight-extra-bold fs-5 d-inline-block">falcon</span>
                 </a>
-
                 @yield('content')
             </div>
         </div>
