@@ -45,55 +45,55 @@
                 </a>
                 <ul class="nav collapse" id="pages" data-parent="#navbarVerticalCollapse">
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/activity.html">Activity</a>
+                        <a class="nav-link" href="#">Activity</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/associations.html">Associations</a>
+                        <a class="nav-link" href="#">Associations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/billing.html">Billing</a>
+                        <a class="nav-link" href="#">Billing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/customer-details.html">Customer details</a>
+                        <a class="nav-link" href="#">Customer details</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/event-detail.html">Event detail</a>
+                        <a class="nav-link" href="#">Event detail</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/event-create.html">Event create</a>
+                        <a class="nav-link" href="#">Event create</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/events.html">Events</a>
+                        <a class="nav-link" href="#">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/faq.html">Faq</a>
+                        <a class="nav-link" href="#">Faq</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/invoice.html">Invoice</a>
+                        <a class="nav-link" href="#">Invoice</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/invite-people.html">Invite people</a>
+                        <a class="nav-link" href="#">Invite people</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/notifications.html">Notifications</a>
+                        <a class="nav-link" href="#">Notifications</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/people.html">People</a>
+                        <a class="nav-link" href="#">People</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/pricing.html">Pricing</a>
+                        <a class="nav-link" href="#">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/pricing-alt.html">Pricing alt</a>
+                        <a class="nav-link" href="#">Pricing alt</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/profile.html">Profile</a>
+                        <a class="nav-link" href="#">Profile</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/settings.html">Settings</a>
+                        <a class="nav-link" href="#">Settings</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/starter.html">Starter</a>
+                        <a class="nav-link" href="#">Starter</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link dropdown-indicator" href="#pages-errors" data-toggle="collapse" role="button"
@@ -156,26 +156,26 @@
                            role="button" aria-expanded="false" aria-controls="authentication-basic">Basic</a>
                         <ul class="nav collapse" id="authentication-basic">
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/basic/login.html">Login</a>
+                                <a class="nav-link" href="#">Login</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/basic/logout.html">Logout</a>
+                                <a class="nav-link" href="#">Logout</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/basic/register.html">Register</a>
+                                <a class="nav-link" href="#">Register</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/basic/forgot-password.html">Forgot
+                                <a class="nav-link" href="#">Forgot
                                     password</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/basic/reset-password.html">Reset password </a>
+                                <a class="nav-link" href="#">Reset password </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/basic/confirm-mail.html">Confirm mail</a>
+                                <a class="nav-link" href="#">Confirm mail</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/basic/lock-screen.html">Lock screen</a>
+                                <a class="nav-link" href="#">Lock screen</a>
                             </li>
                         </ul>
                     </li>
@@ -184,25 +184,25 @@
                            role="button" aria-expanded="false" aria-controls="authentication-card">Card</a>
                         <ul class="nav collapse" id="authentication-card">
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/card/login.html">Login</a>
+                                <a class="nav-link" href="#">Login</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/card/logout.html">Logout</a>
+                                <a class="nav-link" href="#">Logout</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/card/register.html">Register</a>
+                                <a class="nav-link" href="#">Register</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="../authentication/card/forgot-password.html">Forgot
+                            <li class="nav-item"><a class="nav-link" href="#">Forgot
                                     password</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="../authentication/card/reset-password.html">Reset
+                            <li class="nav-item"><a class="nav-link" href="#">Reset
                                     password</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/card/confirm-mail.html">Confirm mail</a>
+                                <a class="nav-link" href="#">Confirm mail</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/card/lock-screen.html">Lock screen</a>
+                                <a class="nav-link" href="#">Lock screen</a>
                             </li>
                         </ul>
                     </li>
@@ -212,32 +212,32 @@
                            aria-controls="authentication-split">Split</a>
                         <ul class="nav collapse" id="authentication-split">
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/split/login.html">Login</a>
+                                <a class="nav-link" href="#">Login</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/split/logout.html">Logout</a>
+                                <a class="nav-link" href="#">Logout</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/split/register.html">Register</a>
+                                <a class="nav-link" href="#">Register</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/split/forgot-password.html">Forgot
+                                <a class="nav-link" href="#">Forgot
                                     password</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/split/reset-password.html">Reset
+                                <a class="nav-link" href="#">Reset
                                     password</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/split/confirm-mail.html">Confirm email</a>
+                                <a class="nav-link" href="#">Confirm email</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../authentication/split/lock-screen.html">Lock screen</a>
+                                <a class="nav-link" href="#">Lock screen</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../authentication/wizard.html">Wizard</a>
+                        <a class="nav-link" href="#">Wizard</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#!" data-toggle="modal" data-target="#authentication-modal">In
@@ -298,101 +298,101 @@
                 </a>
                 <ul class="nav collapse" id="components" data-parent="#navbarVerticalCollapse">
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/accordion.html">Accordion</a>
+                        <a class="nav-link" href="#">Accordion</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/alerts.html">Alerts</a>
+                        <a class="nav-link" href="#">Alerts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/avatar.html">Avatar</a>
+                        <a class="nav-link" href="#">Avatar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/background.html">Background</a>
+                        <a class="nav-link" href="#">Background</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/badges.html">Badges</a>
+                        <a class="nav-link" href="#">Badges</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/breadcrumb.html">Breadcrumb</a>
+                        <a class="nav-link" href="#">Breadcrumb</a>
                     </li>
                     <li class="nav-item">
 
-                        <a class="nav-link" href="../components/bulk-select.html">Bulk select</a>
+                        <a class="nav-link" href="#">Bulk select</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/buttons.html">Buttons</a>
+                        <a class="nav-link" href="#">Buttons</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/cards.html">Cards</a>
+                        <a class="nav-link" href="#">Cards</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/carousel.html">Carousel</a>
+                        <a class="nav-link" href="#">Carousel</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/collapse.html">Collapse</a>
+                        <a class="nav-link" href="#">Collapse</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/countup.html">Countup</a>
+                        <a class="nav-link" href="#">Countup</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/dropdowns.html">Dropdowns</a>
+                        <a class="nav-link" href="#">Dropdowns</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/fancyscroll.html">Fancyscroll</a>
+                        <a class="nav-link" href="#">Fancyscroll</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/fancytab.html">Fancytab</a>
+                        <a class="nav-link" href="#">Fancytab</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/forms.html">Forms</a>
+                        <a class="nav-link" href="#">Forms</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/hoverbox.html">Hoverbox</a>
+                        <a class="nav-link" href="#">Hoverbox</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/list-group.html">List group</a>
+                        <a class="nav-link" href="#">List group</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/modals.html">Modals</a>
+                        <a class="nav-link" href="#">Modals</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/media-object.html">Media object</a>
+                        <a class="nav-link" href="#">Media object</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/navs.html">Navs</a>
+                        <a class="nav-link" href="#">Navs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/navbar.html">Navbar</a>
+                        <a class="nav-link" href="#">Navbar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/page-headers.html">Page headers</a>
+                        <a class="nav-link" href="#">Page headers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/pagination.html">Pagination</a>
+                        <a class="nav-link" href="#">Pagination</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/popovers.html">Popovers</a>
+                        <a class="nav-link" href="#">Popovers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/progress.html">Progress</a>
+                        <a class="nav-link" href="#">Progress</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/scrollspy.html">Scrollspy</a>
+                        <a class="nav-link" href="#">Scrollspy</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/spinners.html">Spinners</a>
+                        <a class="nav-link" href="#">Spinners</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/tables.html">Tables</a>
+                        <a class="nav-link" href="#">Tables</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/tabs.html">Tabs</a>
+                        <a class="nav-link" href="#">Tabs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/toasts.html">Toasts</a>
+                        <a class="nav-link" href="#">Toasts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../components/tooltips.html">Tooltips</a>
+                        <a class="nav-link" href="#">Tooltips</a>
                     </li>
                 </ul>
             </li>
@@ -407,49 +407,49 @@
                 </a>
                 <ul class="nav collapse" id="utilities" data-parent="#navbarVerticalCollapse">
                     <li class="nav-item">
-                        <a class="nav-link" href="../utilities/borders.html">Borders</a>
+                        <a class="nav-link" href="#">Borders</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../utilities/clearfix.html">Clearfix</a>
+                        <a class="nav-link" href="#l">Clearfix</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../utilities/close-icon.html">Close icon</a>
+                        <a class="nav-link" href="#">Close icon</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../utilities/colors.html">Colors</a>
+                        <a class="nav-link" href="#">Colors</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../utilities/display.html">Display</a>
+                        <a class="nav-link" href="#">Display</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../utilities/embed.html">Embed</a>
+                        <a class="nav-link" href="#">Embed</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../utilities/figures.html">Figures</a>
+                        <a class="nav-link" href="#">Figures</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../utilities/flex.html">Flex</a>
+                        <a class="nav-link" href="#">Flex</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../utilities/grid.html">Grid</a>
+                        <a class="nav-link" href="#">Grid</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../utilities/sizing.html">Sizing</a>
+                        <a class="nav-link" href="#">Sizing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../utilities/spacing.html">Spacing</a>
+                        <a class="nav-link" href="#">Spacing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../utilities/stretched-link.html">Stretched link</a>
+                        <a class="nav-link" href="#">Stretched link</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../utilities/typography.html">Typography</a>
+                        <a class="nav-link" href="#">Typography</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../utilities/vertical-align.html">Vertical align</a>
+                        <a class="nav-link" href="#">Vertical align</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../utilities/visibility.html">Visibility</a>
+                        <a class="nav-link" href="#">Visibility</a>
                     </li>
                 </ul>
             </li>
@@ -464,76 +464,76 @@
                 </a>
                 <ul class="nav collapse" id="plugins" data-parent="#navbarVerticalCollapse">
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/bootstrap-wizard.html">Bootstrap wizard</a>
+                        <a class="nav-link" href="#">Bootstrap wizard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/charts.html">Charts</a>
+                        <a class="nav-link" href="#">Charts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/countdown.html">Countdown</a>
+                        <a class="nav-link" href="#">Countdown</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/data-table.html">Data table</a>
+                        <a class="nav-link" href="#">Data table</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/date-picker.html">Date picker</a>
+                        <a class="nav-link" href="#">Date picker</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/dropzone.html">Dropzone</a>
+                        <a class="nav-link" href="#">Dropzone</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/echarts.html">Echarts</a>
+                        <a class="nav-link" href="#">Echarts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/emojionearea.html">Emojionearea</a>
+                        <a class="nav-link" href="#">Emojionearea</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/fancybox.html">Fancybox</a>
+                        <a class="nav-link" href="#">Fancybox</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/fontawesome.html">Fontawesome</a>
+                        <a class="nav-link" href="#">Fontawesome</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/google-map.html">Google map</a>
+                        <a class="nav-link" href="#">Google map</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/inline-player.html">Inline player</a>
+                        <a class="nav-link" href="#">Inline player</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/jquery-validation.html">Jquery validation</a>
+                        <a class="nav-link" href="#">Jquery validation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/leaflet.html">Leaflet</a>
+                        <a class="nav-link" href="#">Leaflet</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/lightbox.html">Lightbox</a>
+                        <a class="nav-link" href="#">Lightbox</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/lottie.html">Lottie</a>
+                        <a class="nav-link" href="#">Lottie</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/toastr.html">Toastr</a>
+                        <a class="nav-link" href="#">Toastr</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/owl-carousel.html">Owl carousel</a>
+                        <a class="nav-link" href="#">Owl carousel</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/perfect-scrollbar.html">Perfect scrollbar</a>
+                        <a class="nav-link" href="#">Perfect scrollbar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/progressbar.html">Progressbar</a>
+                        <a class="nav-link" href="#">Progressbar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/raty.html">Raty</a>
+                        <a class="nav-link" href="#">Raty</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/select2.html">Select2</a>
+                        <a class="nav-link" href="#">Select2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/tinymce.html">Tinymce</a>
+                        <a class="nav-link" href="#">Tinymce</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../plugins/typed-text.html">Typed text</a>
+                        <a class="nav-link" href="#">Typed text</a>
                     </li>
                 </ul>
             </li>
@@ -549,28 +549,28 @@
                 </a>
                 <ul class="nav collapse" id="documentation" data-parent="#navbarVerticalCollapse">
                     <li class="nav-item">
-                        <a class="nav-link" href="../documentation/getting-started.html">Getting started</a>
+                        <a class="nav-link" href="#">Getting started</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../documentation/file-structure.html">File structure</a>
+                        <a class="nav-link" href="#l">File structure</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../documentation/customization.html">Customization</a>
+                        <a class="nav-link" href="#">Customization</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../documentation/dark-mode.html">Dark mode</a>
+                        <a class="nav-link" href="#">Dark mode</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../documentation/fluid-layout.html">Fluidlayout</a>
+                        <a class="nav-link" href="#">Fluidlayout</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../documentation/gulp.html">Gulp</a>
+                        <a class="nav-link" href="#">Gulp</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../documentation/RTL.html">RTL</a>
+                        <a class="nav-link" href="#">RTL</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../documentation/plugins.html">Plugins</a>
+                        <a class="nav-link" href="#">Plugins</a>
                     </li>
                 </ul>
             </li>

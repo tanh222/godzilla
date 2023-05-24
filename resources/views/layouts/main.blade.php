@@ -26,6 +26,7 @@
         @include('layouts.nav')
 
         <div class="content">
+            @include('layouts.topbar')
             @yield('content')
         </div>
     </div>

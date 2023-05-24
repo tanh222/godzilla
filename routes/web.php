@@ -47,3 +47,6 @@ Route::post('create-roles', [RolesController::class, 'createRoles'])->name('crea
 Route::get('update-roles/{id}', [RolesController::class, 'updateRoles'])->name('update-roles');
 Route::put('update-roles/{id}', [RolesController::class, 'rolesUpdate'])->name('update.roles');
 Route::get('delete-roles/{id}', [RolesController::class, 'deleteRoles'])->name('delete.roles');
+
+Route::get('setting',[AuthController::class,'setting'])-> name('setting');
+Route::put('setting', [AuthController::class, 'settingUser'])->name('setting.user');

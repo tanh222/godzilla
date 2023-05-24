@@ -4,6 +4,7 @@ namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authentication;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
@@ -17,13 +18,14 @@ class User extends Authentication
      *
      * @var array<int, string>
      */
-   protected $fillable = [
-        'name',
+    protected $fillable = [
+        'first_name',
+        'last_name',
         'email',
         'password',
-       'phone',
-       'address',
-       'date_created',
+        'phone',
+        'address',
+        'role_id',
     ];
     /**
      * The attributes that should be hidden for serialization.
@@ -43,4 +45,9 @@ class User extends Authentication
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function role()
+    {
+        return $this->belongsTo('App\Models\Role');
+    }
 }
