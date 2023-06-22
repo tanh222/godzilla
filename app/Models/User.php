@@ -22,6 +22,7 @@ class User extends Authentication
         'first_name',
         'last_name',
         'email',
+        'avatar',
         'password',
         'phone',
         'address',

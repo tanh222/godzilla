@@ -55,8 +55,9 @@
                         </th>
                         <th class="align-middle sort">Họ và tên</th>
                         <th class="align-middle sort">Email</th>
+                        <th class="align-middle sort">Avatar</th>
                         <th class="align-middle sort">Quyền</th>
-                        <th class="align-middle sort">Số điện thoại</th>
+                        <th class="align-middle sort pl-3">Số điện thoại</th>
                         <th class="align-middle sort pl-5">Địa chỉ</th>
                         <th class="align-middle sort"></th>
                     </tr>
@@ -77,8 +78,9 @@
                             <td class="py-2 align-middle">
                                 <a href="mailto:ricky@example.com">{{$row->email}}</a>
                             </td>
+                            <td class="py-2 align-middle">{{$row->avatar}}</td>
                             <td class="py-2 align-middle text-capitalize">{{$row->role->name ?? ''}}</td>
-                            <td class="py-2 align-middle white-space-nowrap">
+                            <td class="py-2 align-middle white-space-nowrap pl-3">
                                 <a href="tel:{{$row->phone}}">{{$row->phone}}</a>
                             </td>
                             <td class="py-2 align-middle pl-5 text-capitalize">{{$row->address}}</td>
@@ -86,18 +88,16 @@
                                 <a class="dropdown-item"
                                    href="{{ route('show.form-update', ['id' => $row->id]) }}">Sửa</a>
                                 <a class="dropdown-item text-danger"
-                                   href="{{ route('delete.user', ['id'=> $row->id ]) }} }}">Xóa</a>
+                                   href="{{ route('delete.user', ['id'=> $row->id ]) }}">Xóa</a>
                             </td>
                         </tr>
                     @endforeach
-
                     </tbody>
                 </table>
             </div>
         </div>
-
         <div class="d-flex justify-content-center">
-            {{ $users->links('vendor.pagination.custom')}}
+            {{ $users->links('vendor.pagination.custom') }}
         </div>
     </div>
 @endsection

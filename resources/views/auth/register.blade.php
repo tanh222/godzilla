@@ -14,17 +14,25 @@
                     </p>
                 </div>
             </div>
-
-            <form method ="POST" action="{{ route('register.custom') }}">
+            <form method="POST" action="{{ route('register.custom') }}">
                 @csrf
                 <div class=" form-group">
-                    <input id="name" class="form-control" type="text" placeholder="Name" name="name"/>
+                    <input id="name" class="form-control" type="text" placeholder="First_Name" name="first_name"/>
+                </div>
+                <div class=" form-group">
+                    <input id="name" class="form-control" type="text" placeholder="Last_Name" name="last_name"/>
                 </div>
                 <div class="form-group">
                     <input id="email" class="form-control" type="email" placeholder="Email address" name="email"/>
                     @if ($errors->has('email'))
                         <span class="text-danger">{{ $errors->first('email') }}</span>
                     @endif
+                </div>
+                <div class="form-group">
+                    <input id="number" class="form-control" type="number" placeholder="Phone" name="phone"/>
+                </div>
+                <div class="form-group">
+                    <input id="text" class="form-control" type="text" placeholder="Address" name="address"/>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-6">

@@ -59,10 +59,12 @@ class AuthController extends Controller
             'last_name' => 'required',
             'email' => 'required|email|unique:users',
             'password' => 'required|min:6|confirmed',
+            'phone' => 'required',
+            'address' => 'required',
         ]);
 
         $data = $request->all();
-        $check = $this->create($data);
+        $this->create($data);
 
         return redirect('dashboard')->withSuccess('You have signed-in');
     }
@@ -120,6 +122,21 @@ class AuthController extends Controller
         // Lưu thông tin cập nhật
         $user->save();
         return redirect('dashboard')->withSuccess('You have setting');
+    }
+
+    public function upload()
+    {
+        return view('setting');
+    }
+
+    public function imageUpload(Request $request)
+    {
+        if ($request->hasFile('avatar')) {
+            $filename = $request->avatar->getClientOriginalName();
+            $request->avatar->storeAs('avatar', $filename, 'public');
+            Auth()->user()->update(['avatar' => $filename]);
+        }
+        return redirect('setting');
     }
 
     public function signOut()

@@ -1,9 +1,10 @@
 @extends('layouts.main')
 
 @section('content')
+
     <div class="card">
         <div class="card-body p-4">
-            <div class="row text-left justify-content-between align-itemgit s-center mb-2">
+            <div class="row text-left justify-content-between align-item s-center mb-2">
                 <div class="col-auto my-3">
                     <h4> Create user </h4>
                 </div>
@@ -54,5 +55,6 @@
                     <button class="btn btn-primary mt-3" type="submit" name="submit">Save</button>
                 </div>
             </form>
-
+        </div>
+    </div>
 @endsection

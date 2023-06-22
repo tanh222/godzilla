@@ -28,9 +28,12 @@
         <div class="content">
             @include('layouts.topbar')
             @yield('content')
+            @if(Auth::user()->avatar)
+                <img class="avatar rounded-circle" src="{{ asset('/public/avatar/'.Auth::user()->avatar) }}"
+                     alt="profile_image" style="width: 80px;height: 80px; padding: 10px; margin: 0px; ">
+            @endif
         </div>
     </div>
-
 </main>
 
 <script src="{{ asset('js/jquery.min.js') }}"></script>

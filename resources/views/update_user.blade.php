@@ -13,13 +13,13 @@
                 {{method_field('PUT')}}
                 @csrf
                 <div class="form-group">
-                    <input class="form-control" id="first_name" value="{{ $user->first_name }}" name="first_name" type="text"
-                           placeholder="Fist Name">
+                    <input class="form-control" id="first_name" value="{{ $user->first_name }}" name="first_name"
+                           type="text" placeholder="Fist Name">
                 </div>
-                    <div class="form-group">
-                        <input class="form-control" id="last-name" value="{{ $user->last_name }}" name="last_name"
-                               type="text" placeholder="Last Name">
-                    </div>
+                <div class="form-group">
+                    <input class="form-control" id="last-name" value="{{ $user->last_name }}" name="last_name"
+                           type="text" placeholder="Last Name">
+                </div>
                 <div class="form-group">
                     <input class="form-control" id="email" value="{{ $user->email }}" name="email" type="email"
                            placeholder="Email">
@@ -39,4 +39,5 @@
                     <button class="btn btn-primary mt-3" type="submit" name="submit">Save</button>
                 </div>
             </form>
+        </div>
 @endsection

@@ -50,8 +50,11 @@
                                 <a class="notification notification-flush bg-200" href="#!">
                                     <div class="notification-avatar">
                                         <div class="avatar avatar-2xl mr-3">
-                                            <img class="rounded-circle" src="{{ asset('img/team/thumb.png') }}"
-                                                 alt="img"/>
+                                            @if(Auth::check() && Auth::user()->avatar)
+                                                <img class="rounded-circle"
+                                                     src="{{ asset('storage/avatar/' . Auth::user()->avatar) }}"
+                                                     alt="img"/>
+                                            @endif
                                         </div>
                                     </div>
                                     <div class="notification-body">
@@ -62,7 +65,6 @@
                                         </span>
                                     </div>
                                 </a>
-
                             </div>
                             <div class="list-group-item">
                                 <a class="notification notification-flush bg-200" href="#!">
@@ -83,14 +85,13 @@
                                             </span>
                                     </div>
                                 </a>
-
                             </div>
                             <div class="list-group-title">EARLIER</div>
                             <div class="list-group-item">
                                 <a class="notification notification-flush" href="#!">
                                     <div class="notification-avatar">
                                         <div class="avatar avatar-2xl mr-3">
-                                            <img class="rounded-circle" src="../assets/img/icons/weather-sm.jpg"
+                                            <img class="rounded-circle" src="{{ asset('img/generic/weather-sm.jpg') }}"
                                                  alt=""/>
                                         </div>
                                     </div>
@@ -102,7 +103,6 @@
                                             </span>
                                     </div>
                                 </a>
-
                             </div>
                         </div>
                         <div class="card-footer text-center border-top-0">
@@ -115,7 +115,10 @@
                 <a class="nav-link pr-0" id="navbarDropdownUser" href="#" role="button" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">
                     <div class="avatar avatar-xl">
-                        <img class="rounded-circle" src="{{ asset ('img/team/3-thumb.png') }}" alt="img"/>
+                        @if(Auth::check() && Auth::user()->avatar)
+                            <img class="rounded-circle" src="{{ asset('storage/avatar/' . Auth::user()->avatar) }}"
+                                 alt="img"/>
+                        @endif
                     </div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right py-0" aria-labelledby="navbarDropdownUser">
@@ -124,7 +127,6 @@
                             <span class="fas fa-crown mr-1"></span>
                             <span>Go Pro</span>
                         </a>
-
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#!">Set status</a>
                         <a class="dropdown-item" href="#!">Profile &amp; account</a>

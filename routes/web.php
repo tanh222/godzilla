@@ -50,3 +50,6 @@ Route::get('delete-roles/{id}', [RolesController::class, 'deleteRoles'])->name('
 
 Route::get('setting',[AuthController::class,'setting'])-> name('setting');
 Route::put('setting', [AuthController::class, 'settingUser'])->name('setting.user');
+
+Route::get('upload',[AuthController::class,'upload'])-> name('upload');
+Route::post('upload',[AuthController::class,'imageUpload'])-> name('image.upload');
